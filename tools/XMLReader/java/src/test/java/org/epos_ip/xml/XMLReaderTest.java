@@ -10,13 +10,15 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.epos_ip.dcatflat.XMLReader;
+
 import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for XMLReader {@link org.epos_ip.xml.XMLReader}.
+ * Unit test for XMLReader {@link org.epos_ip.dcatflat.XMLReader}.
  */
 public class XMLReaderTest extends TestCase {
 	private static String LINEBREAK = String.format("%n");

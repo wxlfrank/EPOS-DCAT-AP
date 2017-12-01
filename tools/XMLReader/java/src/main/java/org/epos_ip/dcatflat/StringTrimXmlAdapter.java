@@ -1,4 +1,4 @@
-package org.epos_ip.elements;
+package org.epos_ip.dcatflat;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 

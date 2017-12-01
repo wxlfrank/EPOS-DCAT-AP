@@ -1,4 +1,4 @@
-package org.epos_ip.xml;
+package org.epos_ip.dcatflat;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,8 +9,6 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.stream.XMLStreamWriter;
-
-import org.epos_ip.elements.Baseline;
 
 public class XMLReader {
 

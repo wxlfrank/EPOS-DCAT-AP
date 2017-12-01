@@ -1,4 +1,4 @@
-package org.epos_ip.elements;
+package org.epos_ip.dcatflat;
 
 import java.util.List;
 
@@ -40,6 +40,9 @@ public class Webservice {
 
 	@XmlPath("dct:identifier/text()")
 	private String identifier;
+	
+	@XmlPath("eposap:ddssid/text()")
+	private String ddssid;
 
 	@XmlPath("dct:created/text()")
 	private XMLGregorianCalendar created;
@@ -280,6 +283,14 @@ public class Webservice {
 
 	public void setTimeperiod(TimePeriod timeperiod) {
 		this.timeperiod = timeperiod;
+	}
+
+	public String getDdssid() {
+		return ddssid;
+	}
+
+	public void setDdssid(String ddssid) {
+		this.ddssid = ddssid;
 	}
 
 }

@@ -19,6 +19,6 @@
 }, elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 
 @XmlJavaTypeAdapter(value = StringTrimXmlAdapter.class, type = String.class)
-package org.epos_ip.elements;
+package org.epos_ip.dcatflat;
 
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;

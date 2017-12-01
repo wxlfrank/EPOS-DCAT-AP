@@ -1,4 +1,4 @@
-package org.epos_ip.elements;
+package org.epos_ip.dcatflat;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
